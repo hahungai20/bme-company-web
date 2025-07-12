@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BME MECHANICAL ELECTRICAL COMPANY LIMITED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>BME MECHANICAL ELECTRICAL COMPANY LIMITED</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#services">Dịch vụ</a></li>
+                    <li><a href="#products">Sản phẩm</a></li>
+                    <li><a href="#projects">Dự án</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <h2>Chuyên gia xây dựng công trình dân dụng & công nghiệp</h2>
+            <p>Xây dựng khu công nghiệp, nhà xưởng, công trình kỹ thuật dân dụng khác</p>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Thông Tin Công Ty</h2>
+            <table>
+                <tr><td><b>Tên quốc tế</b></td><td>BME MECHANICAL ELECTRICAL COMPANY LIMITED</td></tr>
+                <tr><td><b>Tên viết tắt</b></td><td>BME MECHANICAL ELECTRICAL CO.,LTD</td></tr>
+                <tr><td><b>Mã số thuế</b></td><td>0312483793</td></tr>
+                <tr><td><b>Địa chỉ</b></td><td>Số 70 đường 1A, khu phố 4, Phường Bình Hưng Hòa B, Quận Bình Tân, Thành phố Hồ Chí Minh, Việt Nam</td></tr>
+                <tr><td><b>Người đại diện</b></td><td>NGHIÊM VĂN THẠCH</td></tr>
+                <tr><td><b>Điện thoại</b></td><td>0964730044</td></tr>
+                <tr><td><b>Ngày hoạt động</b></td><td>2013-09-30</td></tr>
+                <tr><td><b>Quản lý bởi</b></td><td>Đội Thuế Quận Bình Tân</td></tr>
+                <tr><td><b>Loại hình DN</b></td><td>Công ty trách nhiệm hữu hạn ngoài NN</td></tr>
+                <tr><td><b>Tình trạng</b></td><td>Đang hoạt động (đã được cấp GCN ĐKT)</td></tr>
+                <tr>
+                    <td><b>Ngành nghề chính</b></td>
+                    <td>
+                        Xây dựng công trình kỹ thuật dân dụng khác<br>
+                        <i>Chi tiết: Xây dựng công trình dân dụng, công nghiệp. Xây dựng khu công nghiệp và nhà xưởng</i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Dịch Vụ</h2>
+            <ul>
+                <li>Xây dựng công trình dân dụng</li>
+                <li>Xây dựng công trình công nghiệp</li>
+                <li>Xây dựng khu công nghiệp và nhà xưởng</li>
+                <li>Thi công cơ điện lạnh, cơ điện công trình</li>
+            </ul>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Sản phẩm tiêu biểu</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="https://ferino.vn/wp-content/uploads/2024/01/thang-nang-hang-tu-dong.jpg" alt="Thang nâng hàng tự động">
+                    <h3>Thang nâng hàng tự động</h3>
+                    <p>Thiết bị vận chuyển hàng hóa giữa các tầng, vận hành tự động, an toàn, tiết kiệm không gian.</p>
+                    <a href="https://ferino.vn/thang-nang-hang-tu-dong/" target="_blank">Xem chi tiết</a>
+                </div>
+                <div class="product-item">
+                    <img src="https://ferino.vn/wp-content/uploads/2024/01/cau-truot-hang-inox.jpg" alt="Cầu trượt hàng inox">
+                    <h3>Cầu trượt hàng inox</h3>
+                    <p>Giải pháp chuyển hàng nhẹ nhàng, phù hợp nhà kho, xưởng, siêu thị.</p>
+                    <a href="https://ferino.vn/cau-truot-hang-inox/" target="_blank">Xem chi tiết</a>
+                </div>
+                <!-- Thêm nhiều sản phẩm khác tại đây nếu muốn -->
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Dự Án Tiêu Biểu</h2>
+            <ul>
+                <li>Dự án xây dựng nhà xưởng KCN Tân Bình</li>
+                <li>Dự án cơ điện lạnh nhà máy khu công nghiệp Vĩnh Lộc</li>
+                <li>Dự án xây dựng nhà kho logistics TP HCM</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Liên hệ</h2>
+            <p>Địa chỉ: Số 70 đường 1A, khu phố 4, Phường Bình Hưng Hòa B, Quận Bình Tân, TP. Hồ Chí Minh, Việt Nam</p>
+            <p>Điện thoại: 0964730044</p>
+            <p>Email: <a href="mailto:bmecompany@example.com">bmecompany@example.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            &copy; 2025 BME MECHANICAL ELECTRICAL COMPANY LIMITED. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
