@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header {
+    background: #003366;
+    color: #fff;
+    padding: 12px 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 1.4em;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.banner {
+    background: url('https://doannhat.com/wp-content/uploads/2023/03/banner-doannhat.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 70px 0 40px 0;
+    text-align: center;
+}
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: 14px;
+}
+section {
+    margin: 32px 0;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #eee;
+}
+section h2 {
+    color: #003366;
+    margin-bottom: 12px;
+}
+.about table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.about td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #eee;
+}
+.services ul, .projects ul {
+    list-style: disc;
+    margin-left: 24px;
+}
+.products .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.product-item {
+    background: #f5f7fa;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 16px;
+    width: 240px;
+    text-align: center;
+}
+.product-item img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+.product-item a {
+    display: inline-block;
+    margin-top: 8px;
+    background: #003366;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 30px;
+    font-size: 0.98em;
+}
+@media (max-width: 800px) {
+    .products .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
